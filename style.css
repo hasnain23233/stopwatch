@@ -1,0 +1,31 @@
+body{
+    background-color: #edeaff;
+}
+.stopWatch {
+    margin: 15% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    width: 25%;
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 6px;
+    box-shadow: 2px 2px 20px red;
+    text-align: center;
+    padding: 12px;
+    background-color: white;
+}
+.stopWatch .btn img{
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 700ms ease-in-out;
+}
+.stopWatch .btn img:hover{
+    transform: scale(1.2);
+}
+#mdImages{
+    width: 60px;
+}
